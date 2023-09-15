@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <h1>Calculadora de Velocidade Média</h1>
+        <form id="calculadoraForm">
+            <label for="distancia">Distância (em quilômetros):</label>
+            <input type="number" id="distancia" required placeholder="km"><br><br>
+
+            <label for="tempo">Tempo(em horas):</label>
+            <input type="number" id="tempo" required placeholder="Horas"><br><br>
+            
+            <label for="tanque">Capacidade do Tanque (em litros):</label>
+            <input type="number" id="tanque" required placeholder="litros"><br><br>
+            
+            <label for="consumo">Consumo de Combustível (em km/l):</label>
+            <input type="number" id="consumo" required placeholder="Quilometros por litro"><br><br>
+            
+            <label for="precoGasolina">Preço da Gasolina (em R$/litro):</label>
+            <input type="number" id="precoGasolina" required placeholder="Reais"><br><br>
+            
+            <label for="estrada">Tipo de Estrada:</label>
+            <select id="estrada">
+                <option value="estrada">Estrada</option>
+                <option value="cidade">Cidade</option>
+            </select><br><br>
+            
+            <button type="button" onclick="executar()">Executar</button>
+        
+            <br>
+            <div id="res">
+                
+            </div>
+            
+        
+        
+        </form>
+        
+    
+        
+        
+    
+    <script src="gs.js"></script>    
+</body>
+</html>
